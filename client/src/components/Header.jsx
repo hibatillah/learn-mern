@@ -36,7 +36,7 @@ const Navigasi = () => {
 
 const JudulCaption = () => {
   return (
-    <div className="container grid grid-cols-2 mt-32">
+    <div className="container grid grid-cols-2 mt-28">
       <div id="judul_caption">
         <div
           id="label_pcr_squad"
@@ -44,19 +44,19 @@ const JudulCaption = () => {
         >
           Hi, PCR Squad
         </div>
-        <div
+        <h1
           id="judul_besar"
           className="mt-4 text-[60px]/[64px] font-montserrat font-bold"
         >
           Selamat Datang di <span className="text-primary">PCR University</span>
-        </div>
-        <div
+        </h1>
+        <p
           id="caption"
           className="w-3/4 mt-4 text-lg font-inter text-grey-dark"
         >
           Politeknik swasta terbaik nasional dengan fasilitas kampus yang
           lengkap dan lingkungan kampus yang asri.
-        </div>
+        </p>
         <div id="tombol_utama" className="flex gap-5 mt-16">
           <div className="btn btn-primary">Tentang PCR</div>
           <div className="btn btn-secondary">Virtual Tour</div>
