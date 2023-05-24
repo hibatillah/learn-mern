@@ -28,6 +28,6 @@
 
 @layer utilities {
   .container {
-    @apply px-16 py-5;
+    @apply px-6 py-5 lg:px-16;
   }
 }

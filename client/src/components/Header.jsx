@@ -36,7 +36,7 @@ const Navigasi = () => {
 
 const JudulCaption = () => {
   return (
-    <div className="container grid grid-cols-2 mt-28">
+    <div className="container grid grid-cols-1 mt-16 lg:grid-cols-2 lg:mt-28">
       <div id="judul_caption">
         <div
           id="label_pcr_squad"
@@ -46,7 +46,7 @@ const JudulCaption = () => {
         </div>
         <h1
           id="judul_besar"
-          className="mt-4 text-[60px]/[64px] font-montserrat font-bold"
+          className="mt-4 text-5xl lg:text-[60px]/[64px] font-montserrat font-bold"
         >
           Selamat Datang di <span className="text-primary">PCR University</span>
         </h1>
@@ -57,32 +57,32 @@ const JudulCaption = () => {
           Politeknik swasta terbaik nasional dengan fasilitas kampus yang
           lengkap dan lingkungan kampus yang asri.
         </p>
-        <div id="tombol_utama" className="flex gap-5 mt-16">
+        <div id="tombol_utama" className="flex gap-5 mt-8 lg:mt-16">
           <div className="btn btn-primary">Tentang PCR</div>
           <div className="btn btn-secondary">Virtual Tour</div>
         </div>
       </div>
-      <div id="gambar" className="relative">
-        <div className="z-0 w-full">
-          <img src={hero} alt="people" className="z-0 pointer-events-none" />
+      <div id="gambar" className="relative space-y-4">
+        <div className="z-0 w-full mt-20 lg:mt-0">
+          <img src={hero} alt="people" className="z-0 select-none" />
         </div>
         <Banner
           img={building}
           label="Budaya"
           desc="Disiplin, kebersamaan dan cinta lokasi"
-          custom="w-[300px] bottom-[20%] -left-16"
+          custom="lg:w-[300px] bottom-[20%] -left-16"
         />
         <Banner
           img={graduate}
           label="Akreditasi"
           desc="70% Akreditasi prodi di PCR sudah terakreditasi A"
-          custom="w-[350px] -top-14 left-1/2 -translate-x-1/2"
+          custom="lg:w-[350px] -top-14 left-1/2 lg:-translate-x-1/2"
         />
         <Banner
           img={card}
           label="Perkuliahan"
           desc="70% kegiatan perkuliahan dilaksanakan secara praktik"
-          custom="w-[320px] bottom-[8%] -right-12"
+          custom="lg:w-[320px] bottom-[8%] -right-12"
         />
       </div>
     </div>
@@ -92,7 +92,7 @@ const JudulCaption = () => {
 const Banner = ({ img, label, desc, custom }) => {
   return (
     <div
-      className={`flex gap-4 px-5 py-3 bg-white items-center leading-tight shadow-xl rounded-xl absolute z-50 ${custom}`}
+      className={`flex gap-4 px-5 py-3 bg-white items-center leading-tight shadow-xl rounded-xl lg:absolute z-50 ${custom}`}
     >
       <img src={img} alt="icons" className="w-12 h-12" />
       <div className="font-inter">

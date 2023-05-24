@@ -42,7 +42,7 @@ const Content = () => {
   return (
     <main className="container mt-10">
       <Heading />
-      <div className="grid grid-cols-3 gap-10 mt-20 mb-10">
+      <div className="grid grid-cols-1 gap-10 mt-20 mb-10 lg:grid-cols-3">
         <Card title="Politeknik Caltex Laksanakan Kegiatan Workshop"/>
         <Card title="Pengumuman penerima beasiswa provinsi riau tahun 2022"/>
         <Card title="Prof. Hendriko menjadi guru besar pertama di PCR University"/>
