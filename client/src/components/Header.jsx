@@ -17,7 +17,7 @@ const Navigasi = () => {
                   item === "Beranda"
                     ? "text-secondary font-bold"
                     : "text-grey-dark"
-                } font-inter text-medium`}
+                } font-inter font-medium`}
               >
                 {item}
               </a>
@@ -40,7 +40,7 @@ const JudulCaption = () => {
       <div id="judul_caption">
         <div
           id="label_pcr_squad"
-          className="px-8 py-2 text-sm rounded-lg w-fit bg-grey-light font-inter text-primary"
+          className="px-6 py-3 text-sm rounded-lg w-fit bg-grey-light font-inter text-primary"
         >
           Hi, PCR Squad
         </div>
@@ -95,7 +95,7 @@ const Banner = ({ img, label, desc, custom }) => {
       className={`flex gap-4 px-5 py-3 bg-white items-center leading-tight shadow-xl rounded-xl absolute z-50 ${custom}`}
     >
       <img src={img} alt="icons" className="w-12 h-12" />
-      <div>
+      <div className="font-inter">
         <div className="text-sm capitalize text-grey-dark/70">{label}</div>
         <p className="font-medium text-grey-dark">{desc}</p>
       </div>

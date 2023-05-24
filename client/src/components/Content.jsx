@@ -27,11 +27,9 @@ const Card = ({ title }) => {
         {title}
       </h3>
       <p className="text-lg text-grey-dark font-inter">
-        PCR University mengadakan workhsop tentang Framework dalam mengambangkan
-        sistem. Harapannya mahasiswa bisa belajar lebih giat sehingga bisa
-        menjadi developer.
+        PCR University mengadakan workhsop tentang Framework dalam mengambangkan sistem. Harapannya mahasiswa bisa belajar lebih giat sehingga bisa menjadi developer.
       </p>
-      <div className="">
+      <div>
         <a href="#" className="font-bold font-montserrat text-primary">
           Selengkapnya
         </a>
