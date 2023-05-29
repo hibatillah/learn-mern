@@ -7,7 +7,11 @@ let house = {
   }
 }
 
-console.log(`Nama : ${house.currentOwner.firstName}`)
+// latihan 1
+console.log(
+  `Nama : ${house.currentOwner.firstName} ${house.currentOwner.lastName}`
+);
 
+// latihan 2
 house.previousOwners[1] = "Jokowi"
 console.log(`Presiden RI : ${house.previousOwners[1]}`)

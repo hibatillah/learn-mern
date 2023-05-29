@@ -1,5 +1,5 @@
 let greeting = "Hello world!";
-console.log({ greeting })
+console.log(greeting)
 
 const name = "irina";
-console.log({ name })
+console.log(name)

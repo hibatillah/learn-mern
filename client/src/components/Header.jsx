@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { logo, hero, graduate, card, building } from "../assets";
 
@@ -11,18 +12,17 @@ const Navigasi = () => {
         <ul className="flex gap-5">
           {menu.map((item, index) => (
             <li key={index}>
-              <a
-                href="#"
-                className={`${
-                  item === "Beranda"
-                    ? "text-secondary font-bold"
-                    : "text-grey-dark"
-                } font-inter font-medium`}
+              <a href="#"
+                className={`${item === "Beranda" ? "text-secondary font-bold" : "text-grey-dark"} font-inter font-medium`}
               >
                 {item}
               </a>
             </li>
           ))}
+          {/* <a href="#" className="text-secondary font-inter font-semibold">Beranda</a>
+          <a href="#" className="text-grey-dark font-inter font-medium">Program Studi</a>
+          <a href="#" className="text-grey-dark font-inter font-medium">Berita</a>
+          <a href="#" className="text-grey-dark font-inter font-medium">Fasilitas</a> */}
         </ul>
       </div>
       <div id="daftar">
