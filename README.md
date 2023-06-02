@@ -1,3 +1,3 @@
 ## Learn MERN
 
-Projek mern mata kuliah Pemrograman Framework.
+Belajar mern mata kuliah Pemrograman Framework.
