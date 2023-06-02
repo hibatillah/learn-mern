@@ -52,7 +52,7 @@ const Content = () => {
   console.log(dataApi)
 
   return (
-    <main className="container mt-10">
+    <div className="container mt-10">
       <Heading />
       <div className="grid grid-cols-1 gap-x-10 gap-y-12 mt-20 mb-10 lg:grid-cols-3">
         {/* {data.articles.map((item) => 
@@ -63,7 +63,7 @@ const Content = () => {
         <Card title='Prof. Hendriko menjadi guru besar pertama di PCR university' />
         <Card title='Prof. Hendriko menjadi guru besar pertama di PCR university' />
       </div>
-    </main>
+    </div>
   );
 };
 
